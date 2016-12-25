@@ -12,6 +12,10 @@
 		0A5406741E050387005AF2E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5406721E050387005AF2E9 /* Main.storyboard */; };
 		0A5406761E050387005AF2E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A5406751E050387005AF2E9 /* Assets.xcassets */; };
 		0A5406791E050387005AF2E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5406771E050387005AF2E9 /* LaunchScreen.storyboard */; };
+		0A5406831E0503A8005AF2E9 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A5406801E0503A8005AF2E9 /* 01.jpg */; };
+		0A5406841E0503A8005AF2E9 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A5406811E0503A8005AF2E9 /* 02.jpg */; };
+		0A5406851E0503A8005AF2E9 /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A5406821E0503A8005AF2E9 /* 03.jpg */; };
+		0A5406871E0504EA005AF2E9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5406861E0504EA005AF2E9 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		0A5406751E050387005AF2E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A5406781E050387005AF2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A54067A1E050387005AF2E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A5406801E0503A8005AF2E9 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		0A5406811E0503A8005AF2E9 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+		0A5406821E0503A8005AF2E9 /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
+		0A5406861E0504EA005AF2E9 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,11 @@
 				0A54066E1E050387005AF2E9 /* AppDelegate.swift */,
 				0A5406701E050387005AF2E9 /* ViewController.swift */,
 				0A5406721E050387005AF2E9 /* Main.storyboard */,
+				0A5406861E0504EA005AF2E9 /* ResultViewController.swift */,
 				0A5406751E050387005AF2E9 /* Assets.xcassets */,
+				0A5406801E0503A8005AF2E9 /* 01.jpg */,
+				0A5406811E0503A8005AF2E9 /* 02.jpg */,
+				0A5406821E0503A8005AF2E9 /* 03.jpg */,
 				0A5406771E050387005AF2E9 /* LaunchScreen.storyboard */,
 				0A54067A1E050387005AF2E9 /* Info.plist */,
 			);
@@ -96,6 +108,7 @@
 				TargetAttributes = {
 					0A54066A1E050387005AF2E9 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 528GYEY5W3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,8 +136,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5406851E0503A8005AF2E9 /* 03.jpg in Resources */,
+				0A5406841E0503A8005AF2E9 /* 02.jpg in Resources */,
 				0A5406791E050387005AF2E9 /* LaunchScreen.storyboard in Resources */,
 				0A5406761E050387005AF2E9 /* Assets.xcassets in Resources */,
+				0A5406831E0503A8005AF2E9 /* 01.jpg in Resources */,
 				0A5406741E050387005AF2E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +154,7 @@
 			files = (
 				0A5406711E050387005AF2E9 /* ViewController.swift in Sources */,
 				0A54066F1E050387005AF2E9 /* AppDelegate.swift in Sources */,
+				0A5406871E0504EA005AF2E9 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 528GYEY5W3;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.manami.takano.SlideshowApp;
@@ -270,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 528GYEY5W3;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.manami.takano.SlideshowApp;
